@@ -1,0 +1,12 @@
+body {
+    background-image: linear-gradient(rgb(241, 44, 192), wheat);
+  }
+
+  h1, h2, p {
+      text-align: center;
+  }
+
+  #AP {
+     font-weight: bold;
+     font-style: oblique;
+  }
