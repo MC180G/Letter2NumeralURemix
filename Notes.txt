@@ -1,0 +1,18 @@
+Erase these as they are done
+
+Use Bootstrap God Damnit.
+
+Add nav bar to nav between tracks, title page, and connections to 
+[Negativland Page(s), Kasem Wiki, U2 wiki, U2 Single wiki, original versions] at least;
+
+Add mouse click controls to start, pause, and stop (and bump?) the track
+
+Use one controler and upload sample bank from me, 
+eventually being able to upload sample bank from soundboard?
+This would allow different configurations of samples without creating a new board for each,
+even allowing users to assign individual hotkey samples. There could be a few keys set aside to 
+assign idividually.
+
+Group alike samples together on the board(screen). 
+i.e. All the casey's together, all the Billy and Jim's niece stuff together, noises, etc.
+

@@ -12,16 +12,16 @@ body {
   }
 
   .link {
-      /* background-image: url("/coverart.jpg");
-      background-size: contain; */
+      background-image: url("/coverart.jpg");
+      background-size: contain;
+      width:7.5rem;
+      height:6.25rem;
       
     border: .4rem solid black;
-    border-radius: 180px;
+    border-radius: 11.25rem;
     margin: 1rem;
     font-size: 1.5rem;
     padding: 1rem .5rem;
-    width: 20rem;
     text-align: center;
     color: rgb(226, 67, 192);    
-    text-shadow: 0 0 .5rem black;
-  }
+      }
