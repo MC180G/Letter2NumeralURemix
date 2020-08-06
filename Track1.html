@@ -7,23 +7,16 @@
 </head>
 <body>
 
+  
+  <div class="buttons">
+    <!-- Make these clickable buttons -->
+
+    <input type="button" class="button" value="Minimal Mix | Click Here to Start Remix" onclick="playMusic()">
+    <!-- <input type="button" class="button" value="Original Mix | Click Here to Hear the Original Mix" onclick="playMusic()"> -->
+        
+  </div>
+  
   <div class="keys">
-
-    <div class="otherKeys">
-      <!-- Make these clickable buttons -->
-
-      <div data-key="192" class="key">
-        <kbd>`</kbd>
-        <Span class="sound">Song Start</Span>
-      </div>
-
-      <!-- <div data-key="220" class="key">
-        <kbd>\</kbd>
-        <Span class="sound">|</Span>
-      </div> -->
-   
-    </div>
-
 
   <div class="numberRow">
 
@@ -221,7 +214,7 @@
 
 Information wants to be free.
 
-  <audio data-key="192" src="Music/1991 A Cappella Mix (Instrumental).mp3"></audio>
+  <audio id="music" src="Music/1991 A Cappella Mix (Instrumental).mp3"></audio>
 
   <audio data-key="49" src="Samples/MarryAGreatPurpose.mp3"></audio>
   <audio data-key="50" src="Samples/RU2Married2AGreatIdea.mp3"></audio>
@@ -287,11 +280,16 @@ Information wants to be free.
     key.classList.add('playing');
     audio.currentTime = 0;
     audio.play();
-  }
-
+   }
+  
   const keys = Array.from(document.querySelectorAll('.key'));
   keys.forEach(key => key.addEventListener('transitionend', removeTransition));
   window.addEventListener('keydown', playSound);
+
+function playMusic() {
+  const music = document.getElementById("music");
+  music.play();
+}
 </script>
 
 
